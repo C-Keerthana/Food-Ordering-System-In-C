@@ -1,0 +1,332 @@
+#include <stdio.h>
+#include <string.h>
+int item1()
+{
+    int choice;
+    printf("\nWelcome to the Restaurant!!!!!!!!\n");
+    printf("Today's Menu in Masha Allah Restaurant :\n");
+    printf("1. Dosa - Rs.25\n");
+    printf("2. Chapathi- Rs.20\n");
+    printf("3. Idly- Rs.10\n");
+    printf("4. Pongal- Rs.15\n");
+    printf("5. Tea- Rs.10\n");
+    double total = 0.0;
+    do {
+        printf("Enter your choice of order (1-5):\n");
+        scanf("%d", &choice);
+        switch(choice) {
+            case 1:
+                total += 25;
+                printf("Total cost of Dosa :%.2f\n", total);
+                break;
+            case 2:
+                total += 20;
+                printf("Total cost of  Chapathi :%.2f\n", total);
+                break;
+            case 3:
+                total += 10;
+                printf("Total cost of Idly :%.2f\n", total);
+                break;
+            case 4:
+                total += 15;
+                printf("Total cost of Pongal :%.2f\n", total);
+                break;
+            case 5:
+                total += 10;
+                printf("Total cost of Tea :%.2f\n", total);
+                break;
+            case 6:
+            printf("Exit.Thank You For Your Oder...!!!\n");
+            break;
+            default:
+                printf("\nInvalid choice.Please select other choice..\n");
+        }
+    }
+    while(choice==1 || choice==2||choice==3||choice==4 || choice==5||choice==6);
+}
+int item2(){
+    int choice;
+    printf("Welcome to the Restaurant!\n");
+    printf("Today's Menu in 11 To 11 Restaurant:\n");
+    printf("1. Mutton Biriyani - Rs.150\n");
+    printf("2. Chicken grill- Rs.200\n");
+    printf("3. Chicken Thandoori- Rs.150\n");
+    printf("4. Dream Cake- Rs.150\n");
+    printf("5. Coffee- Rs.20\n");
+    double total = 0.0;
+    do {
+        printf("Enter your choice of order (1-5):\n");
+        scanf("%d", &choice);
+        switch(choice) {
+            case 1:
+                total += 150;
+                printf("Total cost of Mutton Biriyani:%.2f\n", total);
+                break;
+            case 2:
+                total += 200;
+                printf("Total cost of  Chicken grill :%.2f\n", total);
+                break;
+            case 3:
+                total += 150;
+                printf("Total cost of Chicken Thandoori :%.2f\n", total);
+                break;
+            case 4:
+                total += 150;
+                printf("Total cost of Dream Cake :%.2f\n", total);
+                break;
+            case 5:
+                total += 20;
+                printf("Total cost of Coffee :%.2f\n", total);
+                break;
+            case 6:
+            printf("\nExit.Thank You For Your Oder...!!!\n");
+            break;
+            default:
+                printf("Invalid choice.Please select again.\n");
+        }
+    }
+    while(choice==1 || choice==2||choice==3||choice==4||choice==5||choice==6);
+}
+int item3(){
+    int choice;
+    printf("Welcome to the Restaurant!\n");
+    printf("Today's Menu in CIBO Restaurant :\n");
+    printf("1. Veg Briyani - Rs.90\n");
+    printf("2. Chicken Fried Rice- Rs.100\n");
+    printf("3. Veg Fried Rice- Rs.120\n");
+    printf("4. French Fries- Rs.120\n");
+    printf("5. Coke- Rs.20\n");
+    double total = 0.0;
+    do {
+        printf("\nEnter your choice of order (1-5):\n");
+        scanf("%d", &choice);
+        switch(choice) {
+            case 1:
+                total += 90;
+                printf("Total cost of Veg Briyani:%.2f\n", total);
+                break;
+            case 2:
+                total += 100;
+                printf("Total cost of  Chicken Fried Rice :%.2f\n", total);
+                break;
+            case 3:
+                total += 120;
+                printf("Total cost of Veg Fried Rice:%.2f\n", total);
+                break;
+            case 4:
+                total += 120;
+                printf("Total cost of French Fries:%.2f\n", total);
+                break;
+            case 5:
+                total += 20;
+                printf("Total cost of Coke:%.2f\n", total);
+                break;
+            case 6:
+            printf("\nExit.Thank You For Your Oder...!!!");
+            break;
+            default:
+                printf("\nInvalid choice.Please select again.");
+        }
+    }
+    while(choice==1 || choice==2||choice==3||choice==4||choice==5||choice==6);
+}
+int item4(){
+    int choice;
+    printf("Welcome to the Restaurant!\n");
+    printf("Today's Menu in RAINBOW Restaurant :\n");
+    printf("1. Veg Briyani - Rs.90\n");
+    printf("2. Chicken Fried Rice- Rs.100\n");
+    printf("3. Veg Fried Rice- Rs.120\n");
+    printf("4. French Fries- Rs.120\n");
+    printf("5. Coke- Rs.20\n");
+    double total = 0.0;
+    do {
+        printf("Enter your choice of order (1-5):\n");
+        scanf("%d", &choice);
+        switch(choice) {
+            case 1:
+                total += 90;
+                printf("Total cost of Veg Briyani:%.2f\n", total);
+                break;
+            case 2:
+                total+= 100;
+                printf("Total cost of  Chicken Fried Rice :%.2f\n", total);
+                break;
+            case 3:
+                total += 120;
+                printf("Total cost of Veg Fried Rice:%.2f\n", total);
+                break;
+            case 4:
+                total += 120;
+                printf("Total cost of French Fries:%.2f\n", total);
+                break;
+            case 5:
+                total += 20;
+                printf("Total cost of Coke:%.2f\n", total);
+                break;
+            case 6:
+            printf("Exit.Thank You For Your Oder...!!!\n");
+            break;
+            default:
+                printf("Invalid choice. Please select again.\n");
+        }
+    }
+    while(choice==1 || choice==2||choice==3||choice==4||choice==5||choice==6);
+}
+int item5(){
+    int choice;
+    printf("Welcome to the Restaurant!\n");
+    printf("Today's Menu in Thalapakatti:\n");
+    printf("1. Chilli Parotta - Rs.90\n");
+    printf("2. Chicken popcorn- Rs.100\n");
+    printf("3. kothu Parotta- Rs.50\n");
+    printf("4. Gulab Jamun- Rs.20\n");
+    printf("5. Miranda- Rs.20\n");
+    double total = 0.0;
+    do {
+        printf("Enter your choice of order(1-5):\n");
+        scanf("%d", &choice);
+        switch(choice) {
+            case 1:
+                total += 90;
+                printf("Total cost of Veg Briyani:%.2f\n", total);
+                break;
+            case 2:
+                total+= 100;
+                printf("Total cost of  Chicken Fried Rice :%.2f\n", total);
+                break;
+            case 3:
+                total += 50;
+                printf("Total cost of Veg Fried Rice:%.2f\n", total);
+                break;
+            case 4:
+                total += 20;
+                printf("Total cost of French Fries:%.2f\n", total);
+                break;
+            case 5:
+                total += 20;
+                printf("Total cost of Coke:%.2f\n", total);
+                break;
+            case 6:
+            printf("Exit.Thank You For Your Oder...!!!\n");
+            break;
+            default:
+                printf("Invalid choice. Please select again.\n");
+        }
+    }
+    while(choice==1 || choice==2||choice==3||choice==4||choice==5||choice==6);
+}
+int item6(){
+    int choice;
+    printf("Welcome to the Restaurant!\n");
+    printf("Today's Menu in Temptations :\n");
+    printf("1. Veg Briyani - Rs.90\n");
+    printf("2. Chicken Fried Rice- Rs.100\n");
+    printf("3. Veg Fried Rice- Rs.120\n");
+    printf("4. French Fries- Rs.120\n");
+    printf("5. Coke- Rs.20\n");
+    double total = 0.0;
+    do {
+        printf("Enter your choice of order (1-5):\n");
+        scanf("%d", &choice);
+        switch(choice) {
+            case 1:
+                total += 90;
+                printf("Total cost of Veg Briyani:%.2f\n", total);
+                break;
+            case 2:
+                total+= 100;
+                printf("Total cost of  Chicken Fried Rice :%.2f\n", total);
+                break;
+            case 3:
+                total += 120;
+                printf("Total cost of Veg Fried Rice:%.2f\n", total);
+                break;
+            case 4:
+                total += 120;
+                printf("Total cost of French Fries:%.2f\n", total);
+                break;
+            case 5:
+                total += 20;
+                printf("Total cost of Coke:%.2f\n", total);
+                break;
+            case 6:
+            printf("Exit.Thank You For Your Oder...!!!\n");
+            break;
+            default:
+                printf("Invalid choice. Please select again.\n");
+        }
+    }
+    while(choice==1 || choice==2||choice==3||choice==5||choice==4||choice==6);
+}
+int main()
+{
+    int n,a,b,c,d,e,f,f1,f2,f3,f4,f5;
+    printf("**RESTAURANT MANAGEMENT**\n");
+    printf("Restuarant Places:\n");
+    printf("1.Karur\n");
+    printf("2.Namakkal\n");
+    printf("3.Dindugal\n");
+    printf("Enter the  Place (1 to 3):");
+    scanf("%d",&n);
+    switch(n)
+    {
+        case 1:
+        printf("Karur");
+        printf("\nRestaurant Names :");
+        printf("\"1-Masha Allah\" \"2-11 To 11\"");
+        printf("\nEnter your choice of restaurant:");
+        scanf("%d",&a);
+        switch(a)
+        {
+            case 1:
+             f=item1();
+            break;
+            case 2:
+            f1=item2();
+            break;
+        }
+        break;
+        case 2:
+        printf("\nNamakkal");
+        printf("\nRestaurant Names:");
+        printf("\"1-CIBO\" \"2-RAINBOW\"");
+        printf("\nEnter your choice of restaurant:");
+        scanf("%d",&b);
+        switch(b)
+        {
+            case 1:
+            {
+            f2=item3();
+            break;
+            }
+            case 2:
+            {
+                f3=item4();
+                break;
+            }
+        
+        break;
+        }
+        case 3:
+        printf("\nDindugal");
+        printf("\nRestaurant Names:");
+        printf("\"1-Thalapakatti\" \"2-Temptations\"");
+        printf("\nEnter your choice of restaurant:");
+        scanf("%d",&c);
+        switch(c)
+        {
+            case 1:
+            {
+            f4=item5();
+            break;
+            }
+            case 2:
+            {
+            f5=item6();
+            break;
+            }
+        break;
+        }
+    }
+}
